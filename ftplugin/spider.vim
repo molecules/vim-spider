@@ -1,8 +1,8 @@
-" Vim filetype plugin file
+" Vim filetype plugin file for Spider
 " Language:      Spider
 " Maintainer:    Christopher Bottoms <molecules@cpan.org>
-" Homepage:      
-" Bugs/requests: 
+" Homepage:      https://github.com/molecules/vim-spider
+" Issues:        https://github.com/molecules/vim-spider/issues
 " Last Change:   2013-07-02
 
 if exists("b:did_ftplugin") | finish | endif
@@ -18,11 +18,11 @@ setlocal formatoptions+=crq
 setlocal tabstop=4           " Indentation levels every four columns
 setlocal softtabstop=4       " Edit as if tabs are 4 characters wide.
 
-setlocal textwidth=1000      " Set number of characters allowed before starting a new line
+setlocal textwidth=1000      " Set number of characters allowed before starting a new line (arbitrarily high)
 
 "---------------------------------------------
 
-" Highlight numbers as numbers
+" Correlated spider syntax features with ones Vim already understands
 hi link spiderNumber		Number
 hi link spiderVariable		Identifier
 hi link spiderCommand		Keyword

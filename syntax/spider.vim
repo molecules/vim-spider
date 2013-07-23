@@ -1,8 +1,8 @@
-" Vim syntax file
+" Vim syntax file for Spider
 " Language:      Spider
 " Maintainer:    Christopher Bottoms <molecules@cpan.org>
-" Homepage:      
-" Bugs/requests: 
+" Homepage:      https://github.com/molecules/vim-spider
+" Issues:        https://github.com/molecules/vim-spider/issues
 " Last Change:   2013-07-04
 
 " Comments
